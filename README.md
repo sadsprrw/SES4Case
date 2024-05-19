@@ -13,8 +13,8 @@
 ## Використання API
 
 ### Отримання поточного курсу
-```GET /api/rate```
-
+```GET /api/rate```<br>
+Використовує third party APi https://currencybeacon.com/api-documentation
 ### Підписка на отримання курсу
 ```POST /api/subscribe```
 Параметри: email (required, string)
